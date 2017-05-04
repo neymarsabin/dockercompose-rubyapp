@@ -1,6 +1,10 @@
 version: '2'
 
 services:
+  dbserver:
+    image: redis:latest
+    depends_on:
+      - appserver
   appserver:
     build: ./appserver
     volumes:

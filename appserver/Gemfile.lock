@@ -4,6 +4,7 @@ GEM
     rack (1.6.4)
     rack-protection (1.5.3)
       rack
+    redis (3.3.3)
     shotgun (0.9.2)
       rack (>= 1.0)
     sinatra (1.4.7)
@@ -16,6 +17,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  redis
   shotgun
   sinatra
 
